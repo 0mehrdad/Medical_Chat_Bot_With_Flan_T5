@@ -1,0 +1,961 @@
+{
+	"diseases" : [ 
+		{
+  "disease_name": "fungal_infection",
+  "symptoms": [
+    "itching",
+    "skin_rash",
+    "nodular_lesions",
+    "skin_eruptions",
+    "discolored_patches",
+    "scaling",
+    "redness",
+    "cracked_skin",
+    "peeling_skin"
+  ]
+}
+,{
+  "disease_name": "allergy",
+  "symptoms": [
+    "sneezing",
+    "runny_nose",
+    "nasal_congestion",
+    "itchy_eyes",
+    "watery_eyes",
+    "skin_rash",
+    "itching",
+    "hives",
+    "swelling",
+    "shortness_of_breath",
+    "wheezing",
+    "coughing",
+    "red_eyes"
+  ]
+}
+,{
+  "disease_name": "GERD",
+  "symptoms": [
+    "heartburn",
+    "chest_pain",
+    "regurgitation",
+    "acidic_taste_in_mouth",
+    "difficulty_swallowing",
+    "chronic_cough",
+    "sore_throat",
+    "hoarseness",
+    "sensation_of_lump_in_throat",
+    "nausea",
+    "bad_breath"
+  ]
+}
+,{
+  "disease_name": "chronic_cholestasis",
+  "symptoms": [
+    "itching",
+    "fatigue",
+    "jaundice",
+    "dark_urine",
+    "pale_stools",
+    "abdominal_pain",
+    "nausea",
+    "loss_of_appetite",
+    "weight_loss",
+    "dry_skin",
+    "bone_pain"
+  ]
+}
+,{
+  "disease_name": "drug_reaction",
+  "symptoms": [
+    "skin_rash",
+    "hives",
+    "itching",
+    "swelling",
+    "fever",
+    "chills",
+    "shortness_of_breath",
+    "wheezing",
+    "nausea",
+    "vomiting",
+    "abdominal_pain",
+    "joint_pain",
+    "fatigue",
+    "yellowing_of_skin_or_eyes",
+    "eosinophilia",
+    "anaphylaxis"
+  ]
+}
+,{
+  "disease_name": "peptic_ulcer_disease",
+  "symptoms": [
+    "burning_stomach_pain",
+    "nausea",
+    "vomiting",
+    "loss_of_appetite",
+    "bloating",
+    "heartburn",
+    "indigestion",
+    "bloody_or_black_stools",
+    "weight_loss",
+    "feeling_of_fullness",
+    "belching",
+    "gastritis",
+    "anemia"
+  ]
+}
+,{
+  "disease_name": "aids",
+  "symptoms": [
+    "unexplained_weight_loss",
+    "fever",
+    "night_sweats",
+    "chronic_fatigue",
+    "swollen_lymph_nodes",
+    "frequent_infections",
+    "diarrhea",
+    "persistent_cough",
+    "shortness_of_breath",
+    "oral_candidiasis",
+    "pneumonia",
+    "skin_rash",
+    "lesions_in_mouth_or_genitals",
+    "neurological_symptoms",
+    "memory_loss",
+    "confusion"
+  ]
+}
+,{
+  "disease_name": "gastroenteritis",
+  "symptoms": [
+    "diarrhea",
+    "nausea",
+    "vomiting",
+    "abdominal_pain",
+    "cramps",
+    "fever",
+    "headache",
+    "dehydration",
+    "loss_of_appetite",
+    "bloody_stools",
+    "bloating"
+  ]
+}
+,{
+  "disease_name": "bronchial_asthma",
+  "symptoms": [
+    "shortness_of_breath",
+    "wheezing",
+    "coughing",
+    "chest_tightness",
+    "difficulty_breathing",
+    "fatigue",
+    "rapid_breathing",
+    "difficulty_talking",
+    "sweating",
+    "restlessness"
+  ]
+}
+,{
+  "disease_name": "migraine",
+  "symptoms": [
+    "severe_headache",
+    "nausea",
+    "vomiting",
+    "sensitivity_to_light",
+    "sensitivity_to_sound",
+    "blurred_vision",
+    "aura",
+    "throbbing_pain",
+    "unilateral_headache",
+    "dizziness",
+    "fatigue",
+    "difficulty_concentrating"
+  ]
+}
+,{
+  "disease_name": "cervical_spondylosis",
+  "symptoms": [
+    "neck_pain",
+    "stiffness_in_neck",
+    "headaches",
+    "shoulder_pain",
+    "numbness_or_tingling_in_arms",
+    "muscle_weakness",
+    "loss_of_balance",
+    "radiating_pain_in_arms_or_hands",
+    "reduced_range_of_motion_in_neck",
+    "pain_when_turning_head"
+  ]
+}
+,{
+  "disease_name": "paralysis_(brain_hemorrhage)",
+  "symptoms": [
+    "sudden_loss_of_movement",
+    "weakness_on_one_side_of_body",
+    "numbness",
+    "severe_headache",
+    "vision_problems",
+    "difficulty_speaking",
+    "confusion",
+    "dizziness",
+    "loss_of_balance",
+    "difficulty_breathing",
+    "difficulty_swallowing",
+    "seizures",
+    "neck_stiffness"
+  ]
+}
+,{
+  "disease_name": "jaundice",
+  "symptoms": [
+    "yellowing_of_skin",
+    "yellowing_of_eyes",
+    "dark_urine",
+    "pale_stools",
+    "fatigue",
+    "abdominal_pain",
+    "loss_of_appetite",
+    "nausea",
+    "vomiting",
+    "itching",
+    "weight_loss",
+    "swelling_in_legs_or_abdomen"
+  ]
+}
+,{
+  "disease_name": "malaria",
+  "symptoms": [
+    "fever",
+    "chills",
+    "sweating",
+    "headache",
+    "muscle_pain",
+    "fatigue",
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "anemia",
+    "jaundice",
+    "abdominal_pain",
+    "cough"
+  ]
+},
+{
+  "disease_name": "dengue",
+  "symptoms": [
+    "high_fever",
+    "severe_headache",
+    "pain_behind_eyes",
+    "muscle_and_joint_pain",
+    "rash",
+    "nausea",
+    "vomiting",
+    "fatigue",
+    "skin_bleeding",
+    "nosebleeds",
+    "gum_bleeding",
+    "low_white_blood_cell_count",
+    "abdominal_pain",
+    "diarrhea"
+  ]
+},
+{
+  "disease_name": "typhoid",
+  "symptoms": [
+    "high_fever",
+    "weakness",
+    "abdominal_pain",
+    "loss_of_appetite",
+    "nausea",
+    "vomiting",
+    "diarrhea_or_constipation",
+    "rash",
+    "headache",
+    "sweating",
+    "dry_cough",
+    "enlarged_spleen_or_liver",
+    "fatigue"
+  ]
+},
+{
+  "disease_name": "hepatitis_a",
+  "symptoms": [
+    "fatigue",
+    "nausea",
+    "vomiting",
+    "loss_of_appetite",
+    "abdominal_pain",
+    "fever",
+    "dark_urine",
+    "jaundice",
+    "light_colored_stools",
+    "muscle_and_joint_pain",
+    "itching"
+  ]
+},
+{
+  "disease_name": "hepatitis_b",
+  "symptoms": [
+    "fatigue",
+    "nausea",
+    "vomiting",
+    "loss_of_appetite",
+    "abdominal_pain",
+    "fever",
+    "dark_urine",
+    "jaundice",
+    "light_colored_stools",
+    "joint_pain",
+    "muscle_aches",
+    "itching"
+  ]
+},
+{
+  "disease_name": "hepatitis_c",
+  "symptoms": [
+    "fatigue",
+    "nausea",
+    "vomiting",
+    "loss_of_appetite",
+    "abdominal_pain",
+    "fever",
+    "dark_urine",
+    "jaundice",
+    "light_colored_stools",
+    "muscle_aches",
+    "joint_pain",
+    "itching",
+    "swelling_in_legs_or_abdomen",
+    "elevated_liver_enzyme_levels"
+  ]
+},
+{
+  "disease_name": "pneumonia",
+  "symptoms": [
+    "cough",
+    "fever",
+    "shortness_of_breath",
+    "chest_pain",
+    "fatigue",
+    "sweating",
+    "shaking_chills",
+    "nausea",
+    "vomiting",
+    "confusion",
+    "rapid_breathing",
+    "blue_tinged_skin",
+    "muscle_aches"
+  ]
+},
+{
+  "disease_name": "arthritis",
+  "symptoms": [
+    "joint_pain",
+    "swelling_in_joints",
+    "stiffness",
+    "reduced_range_of_motion",
+    "fatigue",
+    "warmth_in_joints",
+    "redness_in_joints",
+    "tenderness_in_joints",
+    "muscle_weakness",
+    "difficulty_moving_joints"
+  ]
+},
+{
+  "disease_name": "psoriasis",
+  "symptoms": [
+    "red_patchy_skin",
+    "scaly_skin",
+    "itching",
+    "dry_skin",
+    "painful_skin",
+    "cracked_skin_that_may_bleed",
+    "swollen_joints",
+    "thickened_nails",
+    "flaking_scales_on_the_skin",
+    "burning_sensation_on_skin"
+  ]
+}
+,
+{
+  "disease_name": "impetigo",
+  "symptoms": [
+    "red_sores",
+    "itching",
+    "fluid_filled_blisters",
+    "honey_colored_crusts",
+    "skin_rash",
+    "swollen_lymph_nodes",
+    "painful_sores",
+    "spreading_skin_lesions",
+    "mild_fever"
+  ]
+},
+{
+  "disease_name": "diabetes_mellitus",
+  "symptoms": [
+    "increased_thirst",
+    "frequent_urination",
+    "extreme_hunger",
+    "unexplained_weight_loss",
+    "fatigue",
+    "blurred_vision",
+    "slow_healing_sores",
+    "frequent_infections"
+  ]
+},
+{
+  "disease_name": "hypertension",
+  "symptoms": [
+    "headache",
+    "shortness_of_breath",
+    "nosebleeds",
+    "dizziness",
+    "chest_pain",
+    "visual_disturbances",
+    "fatigue"
+  ]
+},
+{
+  "disease_name": "coronary_artery_disease",
+  "symptoms": [
+    "chest_pain",
+    "shortness_of_breath",
+    "fatigue",
+    "dizziness",
+    "nausea",
+    "sweating",
+    "pain_in_arms_or_back"
+  ]
+},
+{
+  "disease_name": "stroke",
+  "symptoms": [
+    "sudden_numbness_or_weakness",
+    "confusion",
+    "trouble_speaking_or_understanding",
+    "vision_problems",
+    "dizziness",
+    "loss_of_balance",
+    "severe_headache"
+  ]
+},
+{
+  "disease_name": "tuberculosis",
+  "symptoms": [
+    "persistent_cough",
+    "chest_pain",
+    "coughing_up_blood",
+    "fatigue",
+    "weight_loss",
+    "loss_of_appetite",
+    "night_sweats",
+    "fever"
+  ]
+},
+{
+  "disease_name": "influenza",
+  "symptoms": [
+    "fever",
+    "cough",
+    "sore_throat",
+    "runny_or_stuffy_nose",
+    "muscle_aches",
+    "headache",
+    "fatigue",
+    "chills",
+    "sweats"
+  ]
+},
+{
+  "disease_name": "common_cold",
+  "symptoms": [
+    "runny_or_stuffy_nose",
+    "sneezing",
+    "sore_throat",
+    "cough",
+    "mild_fatigue",
+    "low-grade_fever",
+    "headache"
+  ]
+},
+{
+  "disease_name": "covid_19",
+  "symptoms": [
+    "fever",
+    "cough",
+    "shortness_of_breath",
+    "fatigue",
+    "muscle_or_body_aches",
+    "headache",
+    "new_loss_of_taste_or_smell",
+    "sore_throat",
+    "congestion_or_runny_nose",
+    "nausea_or_vomiting",
+    "diarrhea"
+  ]
+},
+{
+  "disease_name": "chronic_obstructive_pulmonary_disease",
+  "symptoms": [
+    "chronic_cough",
+    "shortness_of_breath",
+    "wheezing",
+    "chest_tightness",
+    "fatigue",
+    "frequent_respiratory_infections",
+    "swelling_in_ankles_legs_or_feet"
+  ]
+},
+{
+  "disease_name": "epilepsy",
+  "symptoms": [
+    "recurrent_seizures",
+    "loss_of_consciousness",
+    "muscle_stiffness",
+    "jerking_movements",
+    "aura",
+    "confusion_after_seizure",
+    "staring_spells"
+  ]
+},
+{
+  "disease_name": "parkinsons_disease",
+  "symptoms": [
+    "tremors",
+    "muscle_rigidity",
+    "bradykinesia",
+    "postural_instability",
+    "slurred_speech",
+    "writing_changes",
+    "depression",
+    "sleep_disturbances"
+  ]
+},
+{
+  "disease_name": "alzheimers_disease",
+  "symptoms": [
+    "memory_loss",
+    "difficulty_planning_or_solving_problems",
+    "confusion_with_time_or_place",
+    "trouble_understanding_visual_images",
+    "new_problems_with_words_in_speaking_or_writing",
+    "misplacing_things",
+    "decreased_judgment",
+    "withdrawal_from_work_or_social_activities",
+    "changes_in_mood_or_personality"
+  ]
+},
+{
+  "disease_name": "depression",
+  "symptoms": [
+    "persistent_sadness",
+    "loss_of_interest_in_activities",
+    "fatigue",
+    "sleep_disturbances",
+    "appetite_changes",
+    "feelings_of_worthlessness",
+    "difficulty_concentrating",
+    "thoughts_of_death_or_suicide"
+  ]
+},
+{
+  "disease_name": "anxiety_disorder",
+  "symptoms": [
+    "excessive_worry",
+    "restlessness",
+    "fatigue",
+    "difficulty_concentrating",
+    "irritability",
+    "muscle_tension",
+    "sleep_disturbances",
+    "panic_attacks"
+  ]
+},
+{
+  "disease_name": "bipolar_disorder",
+  "symptoms": [
+    "extreme_mood_swings",
+    "manic_episodes",
+    "depressive_episodes",
+    "impulsive_behaviors",
+    "sleep_disturbances",
+    "racing_thoughts",
+    "increased_activity_levels"
+  ]
+},
+{
+  "disease_name": "hypothyroidism",
+  "symptoms": [
+    "fatigue",
+    "weight_gain",
+    "cold_intolerance",
+    "dry_skin",
+    "constipation",
+    "depression",
+    "slow_heart_rate",
+    "hoarseness",
+    "memory_problems",
+    "puffy_face"
+  ]
+},
+{
+  "disease_name": "hyperthyroidism",
+  "symptoms": [
+    "weight_loss",
+    "rapid_heartbeat",
+    "nervousness",
+    "tremors",
+    "heat_intolerance",
+    "sweating",
+    "frequent_bowel_movements",
+    "fatigue",
+    "sleep_difficulty",
+    "goiter"
+  ]
+},
+{
+  "disease_name": "lupus",
+  "symptoms": [
+    "fatigue",
+    "joint_pain",
+    "skin_rash",
+    "fever",
+    "hair_loss",
+    "photosensitivity",
+    "mouth_ulcers",
+    "chest_pain",
+    "kidney_problems",
+    "swelling_in_legs_or_eyes"
+  ]
+},
+{
+  "disease_name": "multiple_sclerosis",
+  "symptoms": [
+    "numbness_or_tingling",
+    "muscle_weakness",
+    "vision_problems",
+    "balance_problems",
+    "fatigue",
+    "dizziness",
+    "bladder_issues",
+    "memory_problems",
+    "difficulty_walking"
+  ]
+},
+{
+  "disease_name": "rheumatoid_arthritis",
+  "symptoms": [
+    "joint_pain",
+    "joint_swelling",
+    "morning_stiffness",
+    "fatigue",
+    "fever",
+    "loss_of_appetite",
+    "redness_in_joints",
+    "symmetrical_joint_involvement"
+  ]
+},
+{
+  "disease_name": "osteoporosis",
+  "symptoms": [
+    "back_pain",
+    "loss_of_height",
+    "stooped_posture",
+    "easy_bone_fractures",
+    "brittle_bones",
+    "limited_mobility"
+  ]
+},
+{
+  "disease_name": "anemia",
+  "symptoms": [
+    "fatigue",
+    "pale_skin",
+    "shortness_of_breath",
+    "dizziness",
+    "cold_hands_and_feet",
+    "chest_pain",
+    "headache",
+    "weakness"
+  ]
+},
+{
+  "disease_name": "appendicitis",
+  "symptoms": [
+    "abdominal_pain",
+    "pain_in_lower_right_abdomen",
+    "nausea",
+    "vomiting",
+    "fever",
+    "loss_of_appetite",
+    "constipation_or_diarrhea",
+    "abdominal_swelling"
+  ]
+},
+{
+  "disease_name": "urinary_tract_infection",
+  "symptoms": [
+    "burning_sensation_during_urination",
+    "frequent_urination",
+    "cloudy_urine",
+    "strong_urine_odor",
+    "pelvic_pain",
+    "blood_in_urine",
+    "lower_abdominal_pain",
+    "fever"  
+  ]
+},
+{
+  "disease_name": "kidney_stones",
+  "symptoms": [
+    "severe_flank_pain",
+    "blood_in_urine",
+    "frequent_urination",
+    "nausea",
+    "vomiting",
+    "pain_during_urination",
+    "cloudy_urine",
+    "foul_smelling_urine"
+  ]
+},
+{
+  "disease_name": "gallstones",
+  "symptoms": [
+    "sudden_abdominal_pain",
+    "pain_in_right_upper_abdomen",
+    "nausea",
+    "vomiting",
+    "back_pain_between_shoulders",
+    "pain_after_eating_fatty_foods",
+    "jaundice",
+    "fever"
+  ]
+},
+{
+  "disease_name": "pancreatitis",
+  "symptoms": [
+    "upper_abdominal_pain",
+    "abdominal_pain_that_radiates_to_back",
+    "nausea",
+    "vomiting",
+    "fever",
+    "rapid_heartbeat",
+    "swollen_abdomen",
+    "tenderness_in_abdomen"
+  ]
+},
+{
+  "disease_name": "hepatitis_e",
+  "symptoms": [
+    "jaundice",
+    "fatigue",
+    "loss_of_appetite",
+    "nausea",
+    "vomiting",
+    "abdominal_pain",
+    "dark_urine",
+    "light_colored_stools",
+    "fever"
+  ]
+},
+{
+  "disease_name": "meningitis",
+  "symptoms": [
+    "severe_headache",
+    "fever",
+    "stiff_neck",
+    "nausea",
+    "vomiting",
+    "sensitivity_to_light",
+    "confusion",
+    "seizures",
+    "sleepiness"
+  ]
+},
+{
+  "disease_name": "liver_cirrhosis",
+  "symptoms": [
+    "fatigue",
+    "jaundice",
+    "itching",
+    "easy_bruising",
+    "abdominal_swelling",
+    "leg_swelling",
+    "loss_of_appetite",
+    "nausea",
+    "confusion",
+    "spider_like_blood_vessels_on_skin"
+  ]
+},
+{
+  "disease_name": "tension_headache",
+  "symptoms": [
+    "dull_head_pain",
+    "pressure_around_forehead",
+    "tight_neck_or_shoulders",
+    "scalp_tenderness",
+    "irritability",
+    "trouble_concentrating"
+  ]
+},
+{
+  "disease_name": "autism_spectrum_disorder",
+  "symptoms": [
+    "delayed_speech",
+    "difficulty_with_social_interaction",
+    "repetitive_behaviors",
+    "poor_eye_contact",
+    "limited_interests",
+    "sensitivity_to_light_or_sound"
+  ]
+},
+{
+  "disease_name": "adhd",
+  "symptoms": [
+    "inattention",
+    "hyperactivity",
+    "impulsivity",
+    "trouble_concentrating",
+    "fidgeting",
+    "forgetfulness"
+  ]
+},
+{
+  "disease_name": "ocd",
+  "symptoms": [
+    "repetitive_behaviors",
+    "obsessive_thoughts",
+    "anxiety",
+    "ritualistic_behavior",
+    "compulsive_cleaning",
+    "fear_of_contamination"
+  ]
+},
+{
+  "disease_name": "measles",
+  "symptoms": [
+    "high_fever",
+    "cough",
+    "runny_nose",
+    "red_eyes",
+    "koplik_spots",
+    "skin_rash"
+  ]
+},
+{
+  "disease_name": "mumps",
+  "symptoms": [
+    "swollen_salivary_glands",
+    "pain_while_chewing",
+    "fever",
+    "headache",
+    "muscle_aches",
+    "loss_of_appetite"
+  ]
+},
+{
+  "disease_name": "rubella",
+  "symptoms": [
+    "low_grade_fever",
+    "rash",
+    "swollen_lymph_nodes",
+    "joint_pain",
+    "conjunctivitis",
+    "headache"
+  ]
+},
+{
+  "disease_name": "chickenpox",
+  "symptoms": [
+    "itchy_rash",
+    "blister_like_lesions",
+    "fever",
+    "tiredness",
+    "loss_of_appetite",
+    "headache"
+  ]
+},
+{
+  "disease_name": "congestive_heart_failure",
+  "symptoms": [
+    "shortness_of_breath",
+    "fatigue",
+    "swelling_in_legs",
+    "rapid_weight_gain",
+    "persistent_cough",
+    "chest_pain",
+    "irregular_heartbeat"
+  ]
+},
+{
+  "disease_name": "arrhythmia",
+  "symptoms": [
+    "palpitations",
+    "dizziness",
+    "chest_discomfort",
+    "shortness_of_breath",
+    "fainting",
+    "fatigue"
+  ]
+},
+{
+  "disease_name": "gout",
+  "symptoms": [
+    "sudden_joint_pain",
+    "swelling",
+    "redness",
+    "warmth_in_joint",
+    "limited_joint_movement",
+    "tenderness_in_big_toe"
+  ]
+},
+{
+  "disease_name": "fibromyalgia",
+  "symptoms": [
+    "widespread_pain",
+    "fatigue",
+    "sleep_disturbances",
+    "cognitive_difficulties",
+    "depression",
+    "sensitivity_to_touch"
+  ]
+},
+{
+  "disease_name": "polycystic_ovary_syndrome",
+  "symptoms": [
+    "irregular_periods",
+    "acne",
+    "excess_facial_hair",
+    "weight_gain",
+    "ovarian_cysts",
+    "infertility"
+  ]
+},
+{
+  "disease_name": "cushing_syndrome",
+  "symptoms": [
+    "weight_gain",
+    "moon_face",
+    "buffalo_hump",
+    "purple_stretch_marks",
+    "thin_skin",
+    "muscle_weakness",
+    "irregular_periods"
+  ]
+},
+{
+  "disease_name": "addison_disease",
+  "symptoms": [
+    "fatigue",
+    "weight_loss",
+    "low_blood_pressure",
+    "darkening_of_skin",
+    "salt_craving",
+    "nausea",
+    "abdominal_pain"
+  ]
+}
+]
+}
